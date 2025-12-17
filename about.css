@@ -209,3 +209,15 @@ p {
   gap: 25px;
   margin-top: 30px;
 }
+feature-item {
+  padding: 25px;
+  background: linear-gradient(135deg, #f0b4cf 0%, #fafafa 100%);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+}
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(216, 106, 138, 0.15);
+  border-color: #d86a8a;
+}
