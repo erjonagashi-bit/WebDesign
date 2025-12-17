@@ -236,3 +236,30 @@ main {
 .product-card:hover .product-image img {
   transform: scale(1.1);
 }
+.product-info {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.caption {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.4;
+  color: #5a4a42;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caption b {
+  font-weight: 600;
+}
+.price {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d86a8a;
+  margin: 8px 0;
+}
