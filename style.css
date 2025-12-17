@@ -153,3 +153,25 @@ main {
   flex-direction: column;
   height: 100%;
 }
+.product-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--pink);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.product-badge.premium {
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  color: #333;
+}
+.product-badge.new {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
