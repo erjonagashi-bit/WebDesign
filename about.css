@@ -196,3 +196,10 @@ p {
 .story-section p {
   text-align: left;
 }
+.features-section {
+  margin-top: 50px;
+  padding: 0 40px 50px 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
