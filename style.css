@@ -68,3 +68,9 @@ body {
   font-weight: 500;
   transition: opacity 0.2s;
 }
+.nav a:hover {
+  opacity: 0.7;
+}
+.nav a.active {
+  font-weight: 700;
+}
