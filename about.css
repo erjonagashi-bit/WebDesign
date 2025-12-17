@@ -33,3 +33,15 @@ nav {
   position: relative;
   z-index: 1;
 }
+nav a {
+  text-decoration: none;
+  color: #111;
+  margin-left: 18px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
