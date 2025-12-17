@@ -126,3 +126,8 @@ p {
   color: #555;
   margin-bottom: 15px;
 }
+.story-section p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
