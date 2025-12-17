@@ -1,0 +1,7 @@
+.site-header {
+  background: linear-gradient(90deg, #ffb3d9, #f9d7e4);
+  padding: 14px 30px;
+  box-shadow: 0 4px 20px rgba(255, 179, 217, 0.3);
+  position: relative;
+  overflow: hidden;
+}
