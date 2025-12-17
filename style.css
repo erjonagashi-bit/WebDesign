@@ -143,3 +143,9 @@ main p {
   padding: 14px;
   display: block;
 }
+.card.active {
+  width: var(--card-w);
+  height: var(--card-h);
+  opacity: 1;
+  transform: scale(1);
+}
