@@ -119,3 +119,8 @@ body {
   border-color: var(--pink);
   color: #fff;
 }
+main {
+  flex: 1;
+  padding-bottom: 50px;
+  background-color: #f5e9d8 !important;
+}
