@@ -6,3 +6,8 @@
   --card-h: 330px;
   --card-gap: 36px;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
