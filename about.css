@@ -26,3 +26,10 @@ nav {
   position: relative;
   z-index: 1;
 }
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  position: relative;
+  z-index: 1;
+}
