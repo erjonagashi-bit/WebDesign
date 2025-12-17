@@ -156,3 +156,17 @@ p {
   text-align: left;
   margin: 0;
 }
+.values-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+.values-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.values-list li:last-child {
+  border-bottom: none;
+}
