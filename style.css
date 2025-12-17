@@ -181,3 +181,14 @@ main p {
   margin-top: 40px;
   text-align: center;
 }
+.autoplay-control label {
+  font-size: 14px;
+  color: #f5e9d8;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.autoplay-control input {
+  margin-right: 8px;
+  cursor: pointer;
+}
