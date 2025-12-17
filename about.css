@@ -170,3 +170,8 @@ p {
 .values-list li:last-child {
   border-bottom: none;
 }
+.values-list strong {
+  color: #f5e9d8;
+  display: block;
+  margin-bottom: 5px;
+}
