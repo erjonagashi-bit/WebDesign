@@ -169,3 +169,7 @@ main p {
 .nav-btn:hover {
   opacity: 0.8;
 }
+.prev {
+  background: #666;
+  color: #fff;
+}
