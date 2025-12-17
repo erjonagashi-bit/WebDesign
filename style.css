@@ -156,3 +156,13 @@ main p {
 .card.active:hover {
   transform: scale(1.05);
 }
+.nav-btn {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
