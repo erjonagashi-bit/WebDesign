@@ -1,0 +1,43 @@
+:root {
+  font-family: system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --primary: #f7c8da;
+  --secondary: #f9d7e4;
+  --card-w: 260px;
+  --card-h: 330px;
+  --card-gap: 36px;
+}
+body {
+  background-color: var(--beige);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.site-header {
+  background: linear-gradient(90deg, #f7c8da, #f9d7e4) !important;
+  padding: 14px 30px;
+}
+.site-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.site-header nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+.site-header nav a:hover {
+  opacity: 0.8;
+}
+.site-header nav a.active {
+  text-decoration: underline;
+}
