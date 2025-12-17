@@ -74,3 +74,9 @@ body {
 .nav a.active {
   font-weight: 700;
 }
+main {
+  flex: 1;
+  width: 100%;
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #2a1b1f, #1a1215);
+}
