@@ -263,3 +263,26 @@ main {
   color: #d86a8a;
   margin: 8px 0;
 }
+.add-to-cart {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, var(--pink) 0%, #eaa5bd 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  box-shadow: 0 4px 12px rgba(216, 106, 138, 0.3);
+  font-family: inherit;
+}
+.add-to-cart:hover {
+  background: linear-gradient(135deg, #eaa5bd 0%, var(--pink) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(216, 106, 138, 0.4);
+}
+.add-to-cart:active {
+  transform: translateY(0);
+}
