@@ -192,3 +192,12 @@ main p {
   margin-right: 8px;
   cursor: pointer;
 }
+address {
+  width: 100%;
+  background: #1f1f1f;
+  color: #eee;
+  padding: 26px 20px;
+  text-align: center;
+  font-style: normal;
+  line-height: 1.8;
+}
