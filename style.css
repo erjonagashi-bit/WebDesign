@@ -15,7 +15,7 @@ body {
   margin: 0;
 }
 .site-header {
-  background: linear-gradient(90deg, #f7c8da, #f9d7e4) !important;
+  background: linear-gradient(90deg, #f7c8da, #f9d7e4);
   padding: 14px 30px;
 }
 .site-header nav {
@@ -40,4 +40,21 @@ body {
 }
 .site-header nav a.active {
   text-decoration: underline;
+}
+.hero-section {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(135deg, rgba(247, 200, 218, 0.3) 0%, rgba(249, 215, 228, 0.2) 100%);
+}
+.hero-section h1 {
+  font-size: 3rem;
+  color: #d86a8a;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  color: #7a5a52;
+  max-width: 600px;
+  margin: 0 auto;
 }
