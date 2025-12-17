@@ -243,3 +243,53 @@ footer {
   border-top: 2px solid rgba(255, 179, 217, 0.2);
   box-shadow: 0 -4px 20px rgba(212, 165, 217, 0.2);
 }
+@media (max-width: 768px) {
+  h1,
+  h3 {
+    padding: 0 20px;
+  }
+
+  .content-grid {
+    padding: 0 20px;
+  }
+
+  .features-section {
+    padding: 0 20px 40px 20px;
+  }
+
+  .story-section {
+    padding: 40px 20px;
+  }
+
+  .card h1 {
+    font-size: 2rem;
+  }
+
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .logo-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0 8px;
+  }
+}
