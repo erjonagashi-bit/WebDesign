@@ -103,3 +103,49 @@ nav a.active {
   line-height: 1.6;
   margin: 0;
 }
+.form-section {
+  background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 2px solid var(--beige-dark);
+  font-size: 15px;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+textarea {
+  resize: none;
+  height: 140px;
+  font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--pink);
+  box-shadow: 0 0 0 3px rgba(247, 200, 218, 0.2);
+  transform: translateY(-2px);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
