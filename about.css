@@ -234,3 +234,12 @@ feature-item {
   color: #666;
   margin: 0;
 }
+footer {
+  background: linear-gradient(180deg, #2d1b2e 0%, #1a0f1a 100%);
+  color: #f5e9d8;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  border-top: 2px solid rgba(255, 179, 217, 0.2);
+  box-shadow: 0 -4px 20px rgba(212, 165, 217, 0.2);
+}
