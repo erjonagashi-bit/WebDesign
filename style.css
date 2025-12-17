@@ -153,3 +153,6 @@ main p {
   transform: scale(0.9);
   opacity: 0.5;
 }
+.card.active:hover {
+  transform: scale(1.05);
+}
