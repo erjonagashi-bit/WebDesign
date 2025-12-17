@@ -69,3 +69,10 @@ body {
 .container > h3 {
   padding: 0 40px;
 }
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 40px 0;
+  padding: 40px 0;
+}
