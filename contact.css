@@ -59,3 +59,47 @@ nav a.active {
   margin-left: auto;
   margin-right: auto;
 }
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  align-items: start;
+}
+.contact-info-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.info-card {
+  background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
+  padding: 30px 25px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+}
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(216, 106, 138, 0.15);
+  border-color: var(--pink);
+}
+
+.info-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.info-card h3 {
+  color: #d86a8a;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.info-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
