@@ -122,3 +122,17 @@ main p {
   min-width: 0;
   overflow: visible;
 }
+.card {
+  width: 150px;
+  height: 200px;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  opacity: 0.3;
+  transform: scale(0.8);
+  transition: width 0.4s ease, height 0.4s ease, transform 0.4s ease, opacity 0.4s ease;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;
+  cursor: pointer;
+  position: relative;
+}
