@@ -90,3 +90,27 @@ body {
 .logo-img:hover {
   transform: scale(1.05);
 }
+h1 {
+  color: #d86a8a;
+  margin: 40px 0 25px 0;
+  font-size: 2.5rem;
+}
+h2 {
+  color: #d86a8a;
+  margin: 35px 0 20px 0;
+  font-size: 1.8rem;
+}
+h3 {
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 auto 50px auto;
+  color: #7a5a52;
+  font-size: 1.1rem;
+  font-style: italic;
+  max-width: 1200px;
+}
+h4 {
+  color: #d86a8a;
+  margin: 15px 0 10px 0;
+  font-size: 1.2rem;
+}
