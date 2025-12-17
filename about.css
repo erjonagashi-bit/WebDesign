@@ -175,3 +175,17 @@ p {
   display: block;
   margin-bottom: 5px;
 }
+.story-section {
+  margin: 50px 0;
+  padding: 50px 40px;
+  background: linear-gradient(135deg, #f0b4cf 0%, #f5f5f5 100%);
+  text-align: left;
+  max-width: 100%;
+}
+.story-section {
+  margin: 50px 0;
+  padding: 50px 40px;
+  background: linear-gradient(135deg, #f0b4cf 0%, #f5f5f5 100%);
+  text-align: left;
+  max-width: 100%;
+}
