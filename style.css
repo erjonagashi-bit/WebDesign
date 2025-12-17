@@ -149,3 +149,7 @@ main p {
   opacity: 1;
   transform: scale(1);
 }
+.card:hover:not(.active) {
+  transform: scale(0.9);
+  opacity: 0.5;
+}
