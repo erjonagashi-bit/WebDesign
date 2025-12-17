@@ -10,3 +10,31 @@ body {
   display: flex;
   flex-direction: column;
 } 
+.site-header {
+  background: linear-gradient(90deg, var(--pink), var(--pink-light));
+  padding: 14px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 18px;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+} 
