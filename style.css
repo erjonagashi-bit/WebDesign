@@ -1,10 +1,10 @@
 :root {
-  font-family: system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --primary: #f7c8da;
-  --secondary: #f9d7e4;
-  --card-w: 260px;
-  --card-h: 330px;
-  --card-gap: 36px;
+  font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --pink: #f7c8da;
+  --pink-light: #f9d7e4;
+  --beige: #f5e9d8;
+  --beige-dark: #efe1cb;
+  --text: #5a4a42;
 }
 body {
   background-color: var(--beige);
