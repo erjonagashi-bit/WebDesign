@@ -177,3 +177,7 @@ main p {
   background: #7CFC00;
   color: #000;
 }
+.autoplay-control {
+  margin-top: 40px;
+  text-align: center;
+}
