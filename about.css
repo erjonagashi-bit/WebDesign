@@ -293,3 +293,25 @@ footer {
     margin: 0 8px;
   }
 }
+@media (max-width: 600px) {
+  h1,
+  h3 {
+    padding: 0 15px;
+  }
+
+  .story-section {
+    padding: 30px 15px;
+  }
+
+  .content-box {
+    padding: 20px;
+  }
+
+  .content-grid {
+    padding: 0 15px;
+  }
+
+  .features-section {
+    padding: 0 15px 30px 15px;
+  }
+}
