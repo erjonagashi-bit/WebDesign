@@ -201,3 +201,13 @@ address {
   font-style: normal;
   line-height: 1.8;
 }
+footer {
+  width: 100%;
+  background: linear-gradient(180deg, #2d1b2e 0%, #1a0f1a 100%);
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #f5e9d8;
+  border-top: 2px solid rgba(255, 179, 217, 0.2);
+  box-shadow: 0 -4px 20px rgba(212, 165, 217, 0.2);
+}
