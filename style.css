@@ -27,3 +27,15 @@ body {
   flex-direction: column;
   overflow-x: hidden;
 }
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 48px;
+  background: linear-gradient(135deg, #ffb3d9 0%, #ffc8e0 30%, #e8b4d4 60%, #d4a5d9 100%);
+  box-shadow: 0 4px 20px rgba(255, 179, 217, 0.3);
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
