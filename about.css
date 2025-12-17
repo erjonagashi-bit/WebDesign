@@ -221,3 +221,16 @@ feature-item {
   box-shadow: 0 8px 20px rgba(216, 106, 138, 0.15);
   border-color: #d86a8a;
 }
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.feature-item h4 {
+  margin: 15px 0 10px 0;
+  font-size: 1.1rem;
+}
+.feature-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
