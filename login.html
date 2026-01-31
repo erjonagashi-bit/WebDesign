@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Glazed Skin - Login</title>
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="login.css">
+</head> 
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <div class="brand">Glazed Skin</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="active">Log In</a>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="login-wrapper">
+    <div class="login-left">
+      <div class="welcome-section">
+        <h1>Welcome!</h1>
+        <h2>Welcome Back</h2>
+        <p>Sign in to your account to continue shopping and enjoy exclusive offers.</p>
+        <div class="features-list">
+          <div class="feature-item">
+            <span class="feature-icon">✨</span>
+            <span>Exclusive offers</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🛒</span>
+            <span>Order history</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">💝</span>
+            <span>Points & rewards</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🚚</span>
+            <span>Fast shipping</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="login-right">
+      <div class="form-card">
+        <h1>Log In</h1>
+        <p class="form-subtitle">Fill in your details to sign in</p>
+        
+        <form id="loginForm" onsubmit="return validateLogin()">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="surname">Surname</label>
+              <input type="text" id="surname" placeholder="Enter your surname" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="gender" value="male">
+                <span>Male</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="gender" value="female">
+                <span>Female</span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" pattern="[\+383-[0-9]{2}-[0-9]{3}-[0-9]{3}" placeholder="+383-**-***-***">
+          </div>
+          
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" min="1" max="120" placeholder="Enter your age">
+          </div>
+          
+          <div id="loginError" class="error"></div>
+          
+          <button type="submit">
+            <span>Sign In</span>
+            <span class="button-icon">→</span>
+          </button>
+        </form>
+        
+        <div class="form-footer">
+          <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+          <a href="#" class="forgot-link">Forgot your password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function validateLogin(){
+  const email = document.getElementById('email').value.trim();
+  const pass = document.getElementById('password').value.trim();
+  const name = document.getElementById('name').value.trim();
+  const surname = document.getElementById('surname').value.trim();
+  const err = document.getElementById('loginError');
+  err.textContent="";
+
+  if(name.length < 2){ err.textContent="Name must be at least 2 characters"; return false; }
+  if(surname.length < 2){ err.textContent="Surname must be at least 2 characters"; return false; }
+  if(!email.includes("@")){ err.textContent="Invalid email address"; return false; }
+  if(pass.length<6){ err.textContent="Password must contain at least 6 characters"; return false; }
+
+  alert("Login successful!");
+  return false;
+}
+</script>
+
+<footer>
+  © 2026 Glazed Skin. All rights reserved.
+</footer>
+</body>
+</html>
+

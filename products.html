@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glazed Skin - Products</title>
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav>
+    <div class="Brand">Glazed Skin</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Log In</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="hero-section">
+    <h1>Discover Your Perfect Skincare</h1>
+    <p>Premium products crafted for radiant, healthy skin</p>
+  </div>
+
+  <div class="filters-section">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <span class="search-icon">🔍</span>
+    </div>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All Products</button>
+      <button class="filter-btn" data-filter="serum">Serums</button>
+      <button class="filter-btn" data-filter="moisturizer">Moisturizers</button>
+      <button class="filter-btn" data-filter="cleanser">Cleansers</button>
+      <button class="filter-btn" data-filter="sunscreen">Sunscreen</button>
+    </div>
+  </div>
+
+  <div class="products-grid" id="productsGrid">
+
+    <!-- Product 1 -->
+    <div class="product-card" data-category="moisturizer">
+      <div class="product-badge">Bestseller</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product1" class="product-link">
+        <div class="product-image">
+          <img src="cera ve.jpg" alt="CeraVe Eye Repair Cream">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>CeraVe Eye Repair Cream</i></b></div>
+          <p class="price">€13.59</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card" data-category="moisturizer">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product2" class="product-link">
+        <div class="product-image">
+          <img src="creme.jpg" alt="La Roche-Posay Toleriane Moisturizer">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>La Roche-Posay Toleriane Moisturizer</i></b></div>
+          <p class="price">€37.70</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card" data-category="serum">
+      <div class="product-badge premium">Premium</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product3" class="product-link">
+        <div class="product-image">
+          <img src="vitamince.webp" alt="SkinCeuticals CE Ferulic Serum">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>SkinCeuticals CE Ferulic Serum</i></b></div>
+          <p class="price">€211.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card" data-category="sunscreen">
+      <div class="product-badge">SPF 50+</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product4" class="product-link">
+        <div class="product-image">
+          <img src="sunscreen.webp" alt="ISDIN Mineral Sunscreen SPF50+">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>ISDIN Mineral Sunscreen SPF50+</i></b></div>
+          <p class="price">€52.51</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card" data-category="serum">
+      <div class="product-badge new">New</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product5" class="product-link">
+        <div class="product-image">
+          <img src="Hyaluronic_Acid_2_B51.webp" alt="The Ordinary Hyaluronic Acid 2%">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>The Ordinary Hyaluronic Acid 2%</i></b></div>
+          <p class="price">€9.90</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card" data-category="serum">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product6" class="product-link">
+        <div class="product-image">
+          <img src="Edited-Article-5.jpg" alt="COSRX Snail 96 Mucin Essence">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>COSRX Snail 96 Mucin Essence</i></b></div>
+          <p class="price">€10.90</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card" data-category="cleanser">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product7" class="product-link">
+        <div class="product-image">
+          <img src="ceravefoaming.jpg" alt="CeraVe Foaming Facial Cleanser">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>CeraVe Foaming Facial Cleaner</i></b></div>
+          <p class="price">€18.25</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product-card" data-category="serum">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product8" class="product-link">
+        <div class="product-image">
+          <img src="differinacne.jpg" alt="Differin Gel (Adapalene)">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>Differin Gel (Adapalene)</i></b></div>
+          <p class="price">€8.64</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 9 -->
+    <div class="product-card" data-category="serum">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product9" class="product-link">
+        <div class="product-image">
+          <img src="la-roche-posay-pure-vitamin-c10-30ml-1.webp" alt="La Roche-Posay Vitamin C10 Serum">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>La Roche-Posay Pure Vitamin C10 Serum</i></b></div>
+          <p class="price">€45.65</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 10 -->
+    <div class="product-card" data-category="serum">
+      <div class="product-badge">Popular</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product10" class="product-link">
+        <div class="product-image">
+          <img src="ordinary.jpg" alt="The Ordinary Niacinamide 10% + Zinc 1%">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>The Ordinary Niacinamide 10% + Zinc 1%</i></b></div>
+          <p class="price">€6.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 11 -->
+    <div class="product-card" data-category="sunscreen">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product11" class="product-link">
+        <div class="product-image">
+          <img src="suncream1.jpg" alt="COSRX Aloe Soothing Sun Cream SPF50">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>COSRX Aloe Soothing Sun Cream SPF50</i></b></div>
+          <p class="price">€7.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 12 -->
+    <div class="product-card" data-category="moisturizer">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product12" class="product-link">
+        <div class="product-image">
+          <img src="PMFacialMoisturizingLotion2.webp" alt="CeraVe PM Facial Moisturizing Lotion">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>CeraVe PM Facial Moisturizing Lotion</i></b></div>
+          <p class="price">€19.42</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 13 -->
+    <div class="product-card" data-category="moisturizer">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product13" class="product-link">
+        <div class="product-image">
+          <img src="la-roche-posay-baume-b5-isobiome-100ml.webp" alt="La Roche-Posay Cicaplast Baume B5">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>La Roche-Posay Cicaplast Baume B5</i></b></div>
+          <p class="price">€14.42</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 14 -->
+    <div class="product-card" data-category="cleanser">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product14" class="product-link">
+        <div class="product-image">
+          <img src="GlycolicAcid7_ExfoliatingToner240ml.webp" alt="The Ordinary Glycolic Acid 7% Toner">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>The Ordinary Glycolic Acid 7% Toner</i></b></div>
+          <p class="price">€11.87</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 15 -->
+    <div class="product-card" data-category="cleanser">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product15" class="product-link">
+        <div class="product-image">
+          <img src="cosrx.jpg" alt="COSRX Low pH Good Morning Cleanser">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>COSRX Low pH Good Morning Cleanser</i></b></div>
+          <p class="price">€18.25</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 16 -->
+    <div class="product-card" data-category="cleanser">
+      <div class="product-badge premium">Premium</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product16" class="product-link">
+        <div class="product-image">
+          <img src="anua.jpg" alt="Anua HEARTLEAF PORE CONTROL CLEANSING OIL">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>Anua HEARTLEAF PORE CONTROL CLEANSING OIL</i></b></div>
+          <p class="price">€58.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 17 -->
+    <div class="product-card" data-category="serum">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product17" class="product-link">
+        <div class="product-image">
+          <img src="seoul.jpg" alt="KSECRET SEOUL 1988 Serum : Retinal Liposome 2% + Black Ginseng">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>KSECRET SEOUL 1988 Serum : Retinal Liposome 2% + Black Ginseng</i></b></div>
+          <p class="price">€22.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 18 -->
+    <div class="product-card" data-category="moisturizer">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product18" class="product-link">
+        <div class="product-image">
+          <img src="drcream.webp" alt="Dr.Althea 147 BARRIER CREAM 50ml">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>Dr.Althea 147 BARRIER CREAM 50ml</i></b></div>
+          <p class="price">€30.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 19 -->
+    <div class="product-card" data-category="moisturizer">
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product19" class="product-link">
+        <div class="product-image">
+          <img src="joseon.webp" alt="Beauty of Joseon Ground Rice and Honey Glow Mask">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>Beauty of Joseon Ground Rice and Honey Glow Mask</i></b></div>
+          <p class="price">€13.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+    <!-- Product 20 -->
+    <div class="product-card" data-category="serum">
+      <div class="product-badge new">New</div>
+      <button class="wishlist-btn" aria-label="Add to wishlist">❤️</button>
+      <a href="products.html#product20" class="product-link">
+        <div class="product-image">
+          <img src="centella.webp" alt="Skin1004 Madagascar Centella Tone Brightening Capsule Ampoule">
+        </div>
+        <div class="product-info">
+          <div class="caption"><b><i>Skin1004 Madagascar Centella Tone Brightening Capsule Ampoule</i></b></div>
+          <p class="price">€25.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  © 2026 Glazed Skin. All rights reserved.
+</footer>
+
+<script src="products.js"></script>
+</body>
+</html>
+
