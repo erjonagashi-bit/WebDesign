@@ -1,8 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: var(--beige);
   color: var(--text);
@@ -10,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
 } 
+
 .site-header {
   background: linear-gradient(90deg, var(--pink), var(--pink-light));
   padding: 14px 30px;
@@ -24,12 +27,12 @@ nav {
 .brand {
   font-size: 22px;
   font-weight: bold;
-  color: #fff;
+  color: #111;
 }
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #111;
   margin-left: 18px;
   font-weight: 500;
 }
@@ -37,12 +40,15 @@ nav a {
 nav a:hover,
 nav a.active {
   text-decoration: underline;
-} 
+}
+
+/* CONTAINER */
 .container {
   flex: 1;
   width: 100%;
   padding: 60px 40px;
   text-align: center;
+  background: linear-gradient(180deg, #2a1b1f, #1a1215);
 }
 
 .container h1 {
@@ -59,6 +65,7 @@ nav a.active {
   margin-left: auto;
   margin-right: auto;
 }
+
 .contact-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -103,6 +110,7 @@ nav a.active {
   line-height: 1.6;
   margin: 0;
 }
+
 .form-section {
   background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
   padding: 40px;
@@ -149,6 +157,7 @@ input::placeholder,
 textarea::placeholder {
   color: #999;
 }
+
 button {
   background: linear-gradient(135deg, var(--pink) 0%, #eaa5bd 100%);
   color: #fff;
@@ -229,8 +238,7 @@ button:active {
   background: linear-gradient(135deg, var(--pink-light) 0%, #fff 100%);
 }
 footer {
-  background-color: var(--pink);
-  color: #fff;
+  background: linear-gradient(180deg, #2d1b2e 0%, #1a0f1a 100%);  color: #f5e9d8;
   text-align: center;
   padding: 15px;
   font-size: 14px;

@@ -1,5 +1,5 @@
 .site-header {
-  background: linear-gradient(90deg, #ffb3d9, #f9d7e4);
+  background: linear-gradient(90deg, #f7c8da, #f9d7e4);
   padding: 14px 30px;
   box-shadow: 0 4px 20px rgba(255, 179, 217, 0.3);
   position: relative;
@@ -55,14 +55,12 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-} 
+}
 .container {
   flex: 1;
   width: 100%;
   padding: 0;
   background: linear-gradient(180deg, #2a1b1f, #1a1215);
-}
-.container {
   text-align: center;
 }
 .container > h1,
@@ -104,7 +102,7 @@ h3 {
   font-weight: 400;
   line-height: 1.6;
   margin: 0 auto 50px auto;
-  color: #7a5a52;
+  color: #f5e9d8;
   font-size: 1.1rem;
   font-style: italic;
   max-width: 1200px;
@@ -117,13 +115,7 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.8;
-  color: #555;
-  margin-bottom: 15px;
-}
-p {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #555;
+  color: #f5e9d8;
   margin-bottom: 15px;
 }
 .story-section p {
@@ -141,10 +133,10 @@ p {
   text-align: left;
 }
 .content-box {
-  background: linear-gradient(135deg, #f0b4cf 0%, #f5f5f5 100%);
+  background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
   padding: 25px;
   border-radius: 12px;
-  border-left: 4px solid #d86a8a;
+  border-left: 4px solid var(--pink);
 }
 .content-box h2 {
   color: #d86a8a;
@@ -155,6 +147,7 @@ p {
 .content-box p {
   text-align: left;
   margin: 0;
+  color: #555;
 }
 .values-list {
   list-style: none;
@@ -178,14 +171,7 @@ p {
 .story-section {
   margin: 50px 0;
   padding: 50px 40px;
-  background: linear-gradient(135deg, #f0b4cf 0%, #f5f5f5 100%);
-  text-align: left;
-  max-width: 100%;
-}
-.story-section {
-  margin: 50px 0;
-  padding: 50px 40px;
-  background: linear-gradient(135deg, #f0b4cf 0%, #f5f5f5 100%);
+  background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
   text-align: left;
   max-width: 100%;
 }
@@ -195,6 +181,7 @@ p {
 }
 .story-section p {
   text-align: left;
+  color: #555;
 }
 .features-section {
   margin-top: 50px;
@@ -209,9 +196,9 @@ p {
   gap: 25px;
   margin-top: 30px;
 }
-feature-item {
+.feature-item {
   padding: 25px;
-  background: linear-gradient(135deg, #f0b4cf 0%, #fafafa 100%);
+  background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 2px solid transparent;
@@ -231,7 +218,7 @@ feature-item {
 }
 .feature-item p {
   font-size: 14px;
-  color: #666;
+  color: #555;
   margin: 0;
 }
 footer {
@@ -248,47 +235,37 @@ footer {
   h3 {
     padding: 0 20px;
   }
-
   .content-grid {
     padding: 0 20px;
   }
-
   .features-section {
     padding: 0 20px 40px 20px;
   }
-
   .story-section {
     padding: 40px 20px;
   }
-
   .card h1 {
     font-size: 2rem;
   }
-
   .card h2 {
     font-size: 1.5rem;
   }
-
   .content-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-
   .features-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-
   .logo-img {
     width: 150px;
     height: 150px;
   }
-
   nav {
     flex-direction: column;
     gap: 10px;
   }
-
   nav a {
     margin: 0 8px;
   }
@@ -298,19 +275,15 @@ footer {
   h3 {
     padding: 0 15px;
   }
-
   .story-section {
     padding: 30px 15px;
   }
-
   .content-box {
     padding: 20px;
   }
-
   .content-grid {
     padding: 0 15px;
   }
-
   .features-section {
     padding: 0 15px 30px 15px;
   }
